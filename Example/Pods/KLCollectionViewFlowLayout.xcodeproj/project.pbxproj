@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040AA37C8C7BE069A7F817BD38AE18FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C75158AE1938503B4E568065A50CA3 /* Foundation.framework */; };
+		07759BBF30B0E7A6812A56ACE52FF8E8 /* KLCollectionViewBaseFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 90E8632BAD18EEFC5E3252C37DDCCF15 /* KLCollectionViewBaseFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E4AE4A35D97C8181E5DEF013753B5C7 /* KLCollectionViewBaseFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 69EBA1D0F2D7E5DC8EBA021CA977ED15 /* KLCollectionViewBaseFlowLayout.m */; };
+		25E0D91A8E262684C3EE2C52545CB01A /* KLCollectionViewFlowLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34608D5CEF8DD0334D93C95BE8B7D07B /* KLCollectionViewFlowLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3947FB9F2CA2E092EF48252B3329C077 /* KLCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B46850522F4CCD881A014F4F1F4751BF /* KLCollectionReusableView.m */; };
+		5348EB7C5DF7DDB89DF1262AAD28D687 /* KLCellFakeView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E7EF503A6A7A0A75BC72AD12C4D6B3 /* KLCellFakeView.m */; };
+		8220CD91648478F8F40C5E1053355F0D /* KLCollectionViewVerticalLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = F56A3D9F82A63D928D9982A81AFEDE33 /* KLCollectionViewVerticalLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A200C9E3FD32A0C6390465AA6610E7B7 /* KLCollectionViewVerticalLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8192F637D4282D798088053E5587ADD0 /* KLCollectionViewVerticalLayout.m */; };
+		B3BF98DFBCA173167010B38875F3DD8F /* KLCollectionViewLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 3628B62F08E08DDFF0B3D805DE91F194 /* KLCollectionViewLayoutAttributes.m */; };
+		BA099BD72842EF2AB6448F213D1FC749 /* KLCollectionReusableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 779BCE377A56DCECE0A3D2E2D2A395D3 /* KLCollectionReusableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB7D26E8A8B5D224113263DD292AB8B3 /* KLCollectionViewLayoutAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = C04931C12570E6721A326AF02C0F9466 /* KLCollectionViewLayoutAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDD3E5D38F3658556490BBAD6EAB8E7 /* KLCollectionViewFlowLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26119C692417BB7BF0098F878CFF8202 /* KLCollectionViewFlowLayout-dummy.m */; };
+		CC1944CB208D9FC8164387DD9F97579A /* KLCollectionViewHorzontalLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 353571C8DCD6896C61B94A7934282D02 /* KLCollectionViewHorzontalLayout.m */; };
+		D5F6053FABACAC61E4D346C8A5801BA3 /* KLCollectionViewHorzontalLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 0159122C015E6E5B8ADA928A023C6A67 /* KLCollectionViewHorzontalLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3293EFFAEDD919C3C622B8BEA5FE99A /* KLCellFakeView.h in Headers */ = {isa = PBXBuildFile; fileRef = DAD043AC920CAE5A4F2B02FCD7B15165 /* KLCellFakeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0159122C015E6E5B8ADA928A023C6A67 /* KLCollectionViewHorzontalLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KLCollectionViewHorzontalLayout.h; path = KLCollectionViewFlowLayout/Classes/KLCollectionViewHorzontalLayout.h; sourceTree = "<group>"; };
+		1360EC8A9CE6346F120C33EF26FEE5C5 /* KLCollectionViewFlowLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KLCollectionViewFlowLayout.modulemap; sourceTree = "<group>"; };
+		1818C2FEECA82CC90945FF1231B34EF7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2572AAF5A7FA8BA068384EDD1CCA6BA3 /* KLCollectionViewFlowLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KLCollectionViewFlowLayout.xcconfig; sourceTree = "<group>"; };
+		26119C692417BB7BF0098F878CFF8202 /* KLCollectionViewFlowLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KLCollectionViewFlowLayout-dummy.m"; sourceTree = "<group>"; };
+		34608D5CEF8DD0334D93C95BE8B7D07B /* KLCollectionViewFlowLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KLCollectionViewFlowLayout-umbrella.h"; sourceTree = "<group>"; };
+		353571C8DCD6896C61B94A7934282D02 /* KLCollectionViewHorzontalLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KLCollectionViewHorzontalLayout.m; path = KLCollectionViewFlowLayout/Classes/KLCollectionViewHorzontalLayout.m; sourceTree = "<group>"; };
+		3628B62F08E08DDFF0B3D805DE91F194 /* KLCollectionViewLayoutAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KLCollectionViewLayoutAttributes.m; path = KLCollectionViewFlowLayout/Classes/KLCollectionViewLayoutAttributes.m; sourceTree = "<group>"; };
+		52C75158AE1938503B4E568065A50CA3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		69EBA1D0F2D7E5DC8EBA021CA977ED15 /* KLCollectionViewBaseFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KLCollectionViewBaseFlowLayout.m; path = KLCollectionViewFlowLayout/Classes/KLCollectionViewBaseFlowLayout.m; sourceTree = "<group>"; };
+		779BCE377A56DCECE0A3D2E2D2A395D3 /* KLCollectionReusableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KLCollectionReusableView.h; path = KLCollectionViewFlowLayout/Classes/KLCollectionReusableView.h; sourceTree = "<group>"; };
+		8192F637D4282D798088053E5587ADD0 /* KLCollectionViewVerticalLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KLCollectionViewVerticalLayout.m; path = KLCollectionViewFlowLayout/Classes/KLCollectionViewVerticalLayout.m; sourceTree = "<group>"; };
+		90E8632BAD18EEFC5E3252C37DDCCF15 /* KLCollectionViewBaseFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KLCollectionViewBaseFlowLayout.h; path = KLCollectionViewFlowLayout/Classes/KLCollectionViewBaseFlowLayout.h; sourceTree = "<group>"; };
+		9731B53744C66237DA39C9248078ABBA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		97E518238AEA193B36823D7F6C8ABC1E /* KLCollectionViewFlowLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KLCollectionViewFlowLayout.framework; path = KLCollectionViewFlowLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B46850522F4CCD881A014F4F1F4751BF /* KLCollectionReusableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KLCollectionReusableView.m; path = KLCollectionViewFlowLayout/Classes/KLCollectionReusableView.m; sourceTree = "<group>"; };
+		BBAE88F1DDC742159413D45804A9D4CE /* KLCollectionViewFlowLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KLCollectionViewFlowLayout-prefix.pch"; sourceTree = "<group>"; };
+		C04931C12570E6721A326AF02C0F9466 /* KLCollectionViewLayoutAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KLCollectionViewLayoutAttributes.h; path = KLCollectionViewFlowLayout/Classes/KLCollectionViewLayoutAttributes.h; sourceTree = "<group>"; };
+		C73560B5B0BA85684F337E9A9F5BC181 /* KLCollectionViewFlowLayout.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KLCollectionViewFlowLayout.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D6E7EF503A6A7A0A75BC72AD12C4D6B3 /* KLCellFakeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KLCellFakeView.m; path = KLCollectionViewFlowLayout/Classes/KLCellFakeView.m; sourceTree = "<group>"; };
+		DAD043AC920CAE5A4F2B02FCD7B15165 /* KLCellFakeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KLCellFakeView.h; path = KLCollectionViewFlowLayout/Classes/KLCellFakeView.h; sourceTree = "<group>"; };
+		E479286844B163A52508C611556949E3 /* KLCollectionViewFlowLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KLCollectionViewFlowLayout-Info.plist"; sourceTree = "<group>"; };
+		F56A3D9F82A63D928D9982A81AFEDE33 /* KLCollectionViewVerticalLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KLCollectionViewVerticalLayout.h; path = KLCollectionViewFlowLayout/Classes/KLCollectionViewVerticalLayout.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58333D6A2C1787BD9243B89643E7B16E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040AA37C8C7BE069A7F817BD38AE18FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1378DC4A51396861171EE085F1E000FB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				52C75158AE1938503B4E568065A50CA3 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1CD31F72631C062419B8938F1E0F2882 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97E518238AEA193B36823D7F6C8ABC1E /* KLCollectionViewFlowLayout.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		308337C938FB19A287EC700C50821D75 /* KLCollectionViewFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				DAD043AC920CAE5A4F2B02FCD7B15165 /* KLCellFakeView.h */,
+				D6E7EF503A6A7A0A75BC72AD12C4D6B3 /* KLCellFakeView.m */,
+				779BCE377A56DCECE0A3D2E2D2A395D3 /* KLCollectionReusableView.h */,
+				B46850522F4CCD881A014F4F1F4751BF /* KLCollectionReusableView.m */,
+				90E8632BAD18EEFC5E3252C37DDCCF15 /* KLCollectionViewBaseFlowLayout.h */,
+				69EBA1D0F2D7E5DC8EBA021CA977ED15 /* KLCollectionViewBaseFlowLayout.m */,
+				0159122C015E6E5B8ADA928A023C6A67 /* KLCollectionViewHorzontalLayout.h */,
+				353571C8DCD6896C61B94A7934282D02 /* KLCollectionViewHorzontalLayout.m */,
+				C04931C12570E6721A326AF02C0F9466 /* KLCollectionViewLayoutAttributes.h */,
+				3628B62F08E08DDFF0B3D805DE91F194 /* KLCollectionViewLayoutAttributes.m */,
+				F56A3D9F82A63D928D9982A81AFEDE33 /* KLCollectionViewVerticalLayout.h */,
+				8192F637D4282D798088053E5587ADD0 /* KLCollectionViewVerticalLayout.m */,
+				B7B9597BDA02FB62A5AE15CBE7453567 /* Pod */,
+				8AFB122EB2EBE1C2A2CC16F668E9C479 /* Support Files */,
+			);
+			name = KLCollectionViewFlowLayout;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		355796F7640F2D3233976DBB66299A33 = {
+			isa = PBXGroup;
+			children = (
+				A11464E50B5B5AA5598F156DCB4617F4 /* Frameworks */,
+				308337C938FB19A287EC700C50821D75 /* KLCollectionViewFlowLayout */,
+				1CD31F72631C062419B8938F1E0F2882 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AFB122EB2EBE1C2A2CC16F668E9C479 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1360EC8A9CE6346F120C33EF26FEE5C5 /* KLCollectionViewFlowLayout.modulemap */,
+				2572AAF5A7FA8BA068384EDD1CCA6BA3 /* KLCollectionViewFlowLayout.xcconfig */,
+				26119C692417BB7BF0098F878CFF8202 /* KLCollectionViewFlowLayout-dummy.m */,
+				E479286844B163A52508C611556949E3 /* KLCollectionViewFlowLayout-Info.plist */,
+				BBAE88F1DDC742159413D45804A9D4CE /* KLCollectionViewFlowLayout-prefix.pch */,
+				34608D5CEF8DD0334D93C95BE8B7D07B /* KLCollectionViewFlowLayout-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KLCollectionViewFlowLayout";
+			sourceTree = "<group>";
+		};
+		A11464E50B5B5AA5598F156DCB4617F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1378DC4A51396861171EE085F1E000FB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7B9597BDA02FB62A5AE15CBE7453567 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C73560B5B0BA85684F337E9A9F5BC181 /* KLCollectionViewFlowLayout.podspec */,
+				1818C2FEECA82CC90945FF1231B34EF7 /* LICENSE */,
+				9731B53744C66237DA39C9248078ABBA /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		743F5848E081C9319D5CD8710BB3F9E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3293EFFAEDD919C3C622B8BEA5FE99A /* KLCellFakeView.h in Headers */,
+				BA099BD72842EF2AB6448F213D1FC749 /* KLCollectionReusableView.h in Headers */,
+				07759BBF30B0E7A6812A56ACE52FF8E8 /* KLCollectionViewBaseFlowLayout.h in Headers */,
+				25E0D91A8E262684C3EE2C52545CB01A /* KLCollectionViewFlowLayout-umbrella.h in Headers */,
+				D5F6053FABACAC61E4D346C8A5801BA3 /* KLCollectionViewHorzontalLayout.h in Headers */,
+				BB7D26E8A8B5D224113263DD292AB8B3 /* KLCollectionViewLayoutAttributes.h in Headers */,
+				8220CD91648478F8F40C5E1053355F0D /* KLCollectionViewVerticalLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E2368F6DF7A6CC670DE67F3574DDCE7F /* KLCollectionViewFlowLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0306EB5A22705EF3EEE83DDACDB5FB8 /* Build configuration list for PBXNativeTarget "KLCollectionViewFlowLayout" */;
+			buildPhases = (
+				743F5848E081C9319D5CD8710BB3F9E1 /* Headers */,
+				6220FF486733AB7D0F4A86A06552194A /* Sources */,
+				58333D6A2C1787BD9243B89643E7B16E /* Frameworks */,
+				CC2823B1E0802E9310506433EC42EE01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KLCollectionViewFlowLayout;
+			productName = KLCollectionViewFlowLayout;
+			productReference = 97E518238AEA193B36823D7F6C8ABC1E /* KLCollectionViewFlowLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FA300F4C74228F6C6EF88A10B03FE3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = C62DBEB5B21F1A4B04F248377CFC4082 /* Build configuration list for PBXProject "KLCollectionViewFlowLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 355796F7640F2D3233976DBB66299A33;
+			productRefGroup = 1CD31F72631C062419B8938F1E0F2882 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2368F6DF7A6CC670DE67F3574DDCE7F /* KLCollectionViewFlowLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC2823B1E0802E9310506433EC42EE01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6220FF486733AB7D0F4A86A06552194A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5348EB7C5DF7DDB89DF1262AAD28D687 /* KLCellFakeView.m in Sources */,
+				3947FB9F2CA2E092EF48252B3329C077 /* KLCollectionReusableView.m in Sources */,
+				0E4AE4A35D97C8181E5DEF013753B5C7 /* KLCollectionViewBaseFlowLayout.m in Sources */,
+				BBDD3E5D38F3658556490BBAD6EAB8E7 /* KLCollectionViewFlowLayout-dummy.m in Sources */,
+				CC1944CB208D9FC8164387DD9F97579A /* KLCollectionViewHorzontalLayout.m in Sources */,
+				B3BF98DFBCA173167010B38875F3DD8F /* KLCollectionViewLayoutAttributes.m in Sources */,
+				A200C9E3FD32A0C6390465AA6610E7B7 /* KLCollectionViewVerticalLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		52D94F94E08C6E83FF84E6B6734E85A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7015FAE86B72CFFA151FFF9EAD3E6889 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		97567CE7D1A509AD9597C05F9DBE7625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2572AAF5A7FA8BA068384EDD1CCA6BA3 /* KLCollectionViewFlowLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KLCollectionViewFlowLayout/KLCollectionViewFlowLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KLCollectionViewFlowLayout/KLCollectionViewFlowLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KLCollectionViewFlowLayout/KLCollectionViewFlowLayout.modulemap";
+				PRODUCT_MODULE_NAME = KLCollectionViewFlowLayout;
+				PRODUCT_NAME = KLCollectionViewFlowLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB1F7708FC20A20C6C2D92663A53E299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2572AAF5A7FA8BA068384EDD1CCA6BA3 /* KLCollectionViewFlowLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KLCollectionViewFlowLayout/KLCollectionViewFlowLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KLCollectionViewFlowLayout/KLCollectionViewFlowLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KLCollectionViewFlowLayout/KLCollectionViewFlowLayout.modulemap";
+				PRODUCT_MODULE_NAME = KLCollectionViewFlowLayout;
+				PRODUCT_NAME = KLCollectionViewFlowLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0306EB5A22705EF3EEE83DDACDB5FB8 /* Build configuration list for PBXNativeTarget "KLCollectionViewFlowLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97567CE7D1A509AD9597C05F9DBE7625 /* Debug */,
+				FB1F7708FC20A20C6C2D92663A53E299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C62DBEB5B21F1A4B04F248377CFC4082 /* Build configuration list for PBXProject "KLCollectionViewFlowLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D94F94E08C6E83FF84E6B6734E85A0 /* Debug */,
+				7015FAE86B72CFFA151FFF9EAD3E6889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FA300F4C74228F6C6EF88A10B03FE3A /* Project object */;
+}

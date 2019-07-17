@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KLCollectionViewFlowLayout'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of KLCollectionViewFlowLayout.'
+  s.version          = '1.0.0'
+  s.summary          = '流动布局组件'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,15 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  组件简介：
+  用于实现瀑布流，填充式布局等；
                        DESC
 
-  s.homepage         = 'https://github.com/574068650@qq.com/KLCollectionViewFlowLayout'
+  s.homepage         = 'https://github.com/Kalanhall'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '574068650@qq.com' => 'Kalanhall@163.com' }
-  s.source           = { :git => 'https://github.com/574068650@qq.com/KLCollectionViewFlowLayout.git', :tag => s.version.to_s }
+  s.author           = { 'Kalan' => 'Kalanhall@163.com' }
+  s.source           = { :git => 'https://github.com/Kalanhall/KLCollectionViewFlowLayout.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

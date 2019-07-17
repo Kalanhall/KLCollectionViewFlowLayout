@@ -1,0 +1,6 @@
+framework module KLCollectionViewFlowLayout {
+  umbrella header "KLCollectionViewFlowLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}

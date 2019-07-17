@@ -1,0 +1,6 @@
+framework module Pods_KLCollectionViewFlowLayout_Tests {
+  umbrella header "Pods-KLCollectionViewFlowLayout_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

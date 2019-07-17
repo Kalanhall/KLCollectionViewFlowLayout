@@ -22,7 +22,7 @@ pod 'KLCollectionViewFlowLayout'
 
 ## Author
 
-574068650@qq.com, Kalanhall@163.com
+Kalan, Kalanhall@163.com
 
 ## License
 
